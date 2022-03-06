@@ -1,0 +1,121 @@
+@media (max-width: 321.98px)  {
+  .services-content h2 {font-size: 35px !important;}
+  .project-content {padding: 72% 5% 9% !important;}
+  .footer-content .quick-links {margin-bottom: 55px;}
+}
+
+@media (max-width: 575.98px) { 
+  .services-content {padding: 18% 5%; text-align: center;}
+  .services-content h2 {font-size: 44px;margin-bottom: 22px;}
+  .services-content .services-text {margin-bottom: 33px;}
+  .container {width: 96%;}
+  .main-banner .navbar-nav {background-color: var(--white); color: var(--dark-grayish-blue); text-align: center; margin-top: 40px; padding: 10px 0 30px;}
+  .main-banner .navbar-nav .nav-item, .main-banner .navbar-nav .nav-item:last-child {margin-left: 0;}
+  .main-banner .navbar-nav .nav-item .nav-link {font-size: 18px; padding: 14px 0;}
+  .main-banner .navbar-nav .nav-item .custom-btn {color: #000; background-color: var(--yellow);margin-top: 10px;}
+  .main-banner .navbar-toggler {padding: 0;}
+  .collapse.show  {position: relative;}
+  .collapse.show::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 25px solid #fff;
+    border-left: 25px solid transparent;
+    top: 16px;
+    right: 0;
+  }
+  .hero-section .main-heading h1 {font-size: 30px;}
+  .hero-section {padding: 65px 0 100px;}
+.hero-section .arrow-down {
+  margin: 23px auto 132px;
+}
+.project-content {
+  padding: 48% 5% 9%;
+}
+.testimonials-content {
+  margin-top: 30px;
+}
+.testimonials-image {
+  padding-bottom: 30px;
+}
+.textimonials-text p {
+  padding-bottom: 23px;
+}
+.testimonial-heading h2 {
+  margin-bottom: 14px;
+}
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .testimonials-content {
+    margin-top: 40px;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .testimonials-content {
+    margin-top: 40px;
+  }
+  .testimonials-image {
+    padding-bottom: 30px;
+  }
+  .textimonials-text p {
+    padding-bottom: 23px;
+  }
+  .testimonial-heading h2 {
+    margin-bottom: 14px;
+  }
+  .main-banner .navbar-nav {
+    background-color: var(--white);
+    color: var(--dark-grayish-blue);
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0 30px;
+  }
+  .main-banner .navbar-nav .nav-item, .main-banner .navbar-nav .nav-item:last-child {
+    margin-left: 0;
+  }
+  .main-banner .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    padding: 14px 0;
+  }
+  .main-banner .navbar-nav .nav-item .custom-btn {
+    color: #000;
+    background-color: var(--yellow);
+    margin-top: 10px;
+  }
+  .main-banner .navbar-toggler {
+    padding: 0;
+  }
+  .collapse.show  {
+    position: relative;
+  }
+  
+.collapse.show::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 25px solid #fff;
+  border-left: 25px solid transparent;
+  top: 16px;
+  right: 0;
+}
+.main-banner .navbar-nav .nav-item .nav-link:hover {
+  color: var(--dark-blue);
+}
+.main-banner .navbar-nav .nav-item:last-child .nav-link:hover {
+  color: var(--white);
+}
+.main-banner .collapse .navbar-nav{
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+}
+}
+
+/* // Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) { ... } */
